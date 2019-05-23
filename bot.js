@@ -18,7 +18,7 @@ const opts = {
   ]
 };
 
-const model_URL = 'http://127.0.0.1:5000'
+const model_URL = 'https://chat-toxicity-classifier.herokuapp.com/?chat_in=yeah'
 // Create a client with our options
 const client = new tmi.client(opts);
 
