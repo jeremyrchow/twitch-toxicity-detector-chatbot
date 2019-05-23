@@ -4,7 +4,8 @@ const tmi = require('tmi.js'); // for
 var http = require('http'); //for HTTP Posts
 var request = require('request');
 var fs = require('fs');
-var oauth_key = fs.readFileSync('./oauth_key/key.txt').toString();
+var oauth_key =  process.env.TWITCH_OAUTH_KEY;
+//var oauth_key = fs.readFileSync('./oauth_key/key.txt').toString();
 
 
 // Define configuration options
