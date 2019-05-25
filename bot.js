@@ -21,7 +21,7 @@ const opts = {
   ]
 };
 // Set model URL to send classification requests to
-const model_URL = 'https://chat-toxicity-classifier.herokuapp.com/?chat_in=yeah'
+const model_URL = 'https://chat-toxicity-classifier.herokuapp.com/'
 
 // Create a client with our options
 const client = new tmi.client(opts);
